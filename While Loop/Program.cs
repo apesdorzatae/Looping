@@ -41,9 +41,9 @@ namespace While_Loop
                     Console.WriteLine("+ menambah hp sebanyak 1, sekarang hp anda " + p);
                 }
                 Console.WriteLine("Sekarang hp anda sudah mencapai 50");
+            }
 
-
-                //[Domba Percobaan]=================================================================================================
+                //[Domba Percobaan #1]=================================================================================================
                 Console.WriteLine("Masukkan jumlah domba");
                 int D = int.Parse(Console.ReadLine());
                 Console.Clear();
@@ -52,8 +52,25 @@ namespace While_Loop
                 {
                     Console.WriteLine("Domba ke " + D);
                     D++;
-                }
+                } 
 
+            //[Domba Percobaan #2]=================================================================================================
+            //GANJIL
+            int D2 = 0;
+            D2++;
+            Console.WriteLine($"Domba ke {D2}");
+            while (D2 < 10)
+            {
+                D2+=2;
+                Console.WriteLine($"Domba ke {D2}");
+            } 
+
+            //GENAP
+            int D3 = 0;
+            while (D3 < 10)
+            {
+                D3+=2;
+                Console.WriteLine($"Domba ke {D3}");
             }
         }
 
