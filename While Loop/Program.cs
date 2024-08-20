@@ -72,6 +72,17 @@ namespace While_Loop
                 D3+=2;
                 Console.WriteLine($"Domba ke {D3}"); 
             }
+
+            /*
+             KODE MR UYUN BUAT DOMBA GANJILL!!!!!! (MR UYUN SANGAT JENIUSSSSS)
+            
+            int D3 = -1;     <<< INI SANGAT BEROTAK SENKU
+            while (D3 < 10)
+            {
+                D3+=2;
+                Console.WriteLine($"Domba ke {D3}"); 
+            }
+            */
         }
     }
 }
