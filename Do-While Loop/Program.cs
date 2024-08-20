@@ -36,8 +36,16 @@ namespace Do_While_Loop
                 Console.WriteLine($"Domba ke {d2}");
                 d2 += 2;
 
-            } while (d2 < 10);
-            //aman bosku
+            } while (d2 < 10); 
+
+            //Percobaan lagi
+            int uangnyaMr_Uyun = /*cuma Rp*/ 3000;
+            Console.WriteLine("Uangnya Mr Uyun masih Rp3000");
+            do
+            {
+                uangnyaMr_Uyun = uangnyaMr_Uyun - 1000; //buat slot
+                Console.WriteLine($"Yaah.. sisa uang Mr Uyun sekarang tinggal Rp{uangnyaMr_Uyun}");
+            } while ( uangnyaMr_Uyun > /*Rp*/ 0 );
         }
     }
 }
