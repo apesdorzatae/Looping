@@ -180,7 +180,7 @@ namespace For_Loop
                 }
             }
             else { Console.WriteLine("Tidak ada yang seperti input di dalan daftar pilihan senjata"); }
-            Console.WriteLine("[COMPETED SUCCESFULY");
+            Console.WriteLine("\n[COMPETED SUCCESFULY]");
         }
     }
 }
