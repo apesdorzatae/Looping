@@ -142,6 +142,45 @@ namespace For_Loop
                 }
             }
             Console.WriteLine("\nSekarang HP anda sedang terkunci, mohon coba masukkan password 100 menit lagi");
+
+
+            //TUGAS AKHIR
+            Console.WriteLine("Pillih senjata >>>       [Arrow]         |       [Punch]      |      [Sword]     |       [Guns]");
+            string a = Console.ReadLine().ToLower();
+            int b = 0;
+            int c = 0;
+            int d = 0;
+
+            if (a == "arrow")
+            {
+                Console.WriteLine("Hit");
+            }
+            else if (a == "punch")
+            {
+                while (b < 2)
+                {
+                    b++;
+                    Console.WriteLine("Hit");
+                }
+            }
+            else if (a == "sword")
+            {
+                while (c < 3)
+                {
+                    b++;
+                    Console.WriteLine("Hit");
+                }
+            }
+            else if (a == "guns")
+            {
+                while (d < 4)
+                {
+                    d++;
+                    Console.WriteLine("Hit");
+                }
+            }
+            else { Console.WriteLine("Tidak ada yang seperti input di dalan daftar pilihan senjata"); }
+            Console.WriteLine("[COMPETED SUCCESFULY");
         }
     }
 }
