@@ -20,6 +20,12 @@ namespace For_Loop
             {
                 Console.WriteLine($"Angka {genap}");
             }
+
+            //PULUHAN AJA
+            for (int puluhan =  0; puluhan <= 100; puluhan+= 10)
+            {
+                Console.WriteLine($"Angka {puluhan}");
+            }
         }
     }
 }
