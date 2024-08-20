@@ -29,7 +29,7 @@ namespace For_Loop
 
             /*
             //LOOP DI DALAM LOOP 💀
-            //⚠CAUTION : SEBAIKNYA JANGAN GEGABAH!⚠
+            //⚠CAUTION : SEBAIKNYA JANGAN GEGABAH! JANGAN YA DEK YA!!⚠
             
             for (int a = 1; a <= 3; a++)
             {
@@ -110,7 +110,7 @@ namespace For_Loop
                         }
                     }
                 }
-            } */
+            } */ //< ini buat ngunci, bahaya kalo dibuka deh
 
             //IF INSIDE LOOP 
             int jumlahGenap = 0;
@@ -122,6 +122,26 @@ namespace For_Loop
                 }
             }
             Console.WriteLine($"Jumlah bilangan genap dari 1 hingga 10 adalah: {jumlahGenap}"); 
+
+            //MAINAN PASSWORD
+            int salah = 3;
+            string password;
+            Console.WriteLine("Masukkan password anda untuk membuka HP");
+            for (int i = 0;i <= 3; i++)
+            {
+                password = Console.ReadLine();
+                if (password == "123")
+                {
+                    Console.WriteLine("\nPassword anda benar");
+                }
+                else
+                {
+                    Console.WriteLine("Password anda salah");
+                    Console.WriteLine($"Percobaan {salah} kali lagi");
+                    salah--;
+                }
+            }
+            Console.WriteLine("\nSekarang HP anda sedang terkunci, mohon coba masukkan password 100 menit lagi");
         }
     }
 }
