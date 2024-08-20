@@ -70,9 +70,8 @@ namespace While_Loop
             while (D3 < 10)
             {
                 D3+=2;
-                Console.WriteLine($"Domba ke {D3}");
+                Console.WriteLine($"Domba ke {D3}"); 
             }
         }
-
     }
 }
