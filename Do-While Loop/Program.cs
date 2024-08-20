@@ -18,6 +18,26 @@ namespace Do_While_Loop
                 Console.WriteLine("Countdown : " + a);
                 a--;
             } while (a > -1);
+
+            //Domba Percobaan
+            //GANJIL 
+            int d1 = 1;
+            do
+            {
+                Console.WriteLine($"Domba ke {d1}");
+                d1 += 2;
+
+            }while (d1 <10);
+
+            //GENAP
+            int d2 = 0;
+            do
+            {
+                Console.WriteLine($"Domba ke {d2}");
+                d2 += 2;
+
+            } while (d2 < 10);
+            //aman bosku
         }
     }
 }
