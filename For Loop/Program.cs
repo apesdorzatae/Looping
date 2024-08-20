@@ -26,6 +26,14 @@ namespace For_Loop
             {
                 Console.WriteLine($"Angka {puluhan}");
             }
+            //LOOP DI DALAM LOOP 💀
+            for (int a = 1; a <= 3; a++)
+            {
+                for (int b = 1; b <= 3; b++)
+                {
+                    Console.WriteLine(a+" "+b);
+                }
+            }
         }
     }
 }
