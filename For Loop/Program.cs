@@ -105,7 +105,6 @@ namespace For_Loop
                                             }
                                         }
                                     }
-                                }
                             }
                         }
                     }
@@ -123,7 +122,7 @@ namespace For_Loop
             }
             Console.WriteLine($"Jumlah bilangan genap dari 1 hingga 10 adalah: {jumlahGenap}"); 
 
-            //MAINAN PASSWORD
+            //MAINAN PASSWORD                                                    
             int salah = 3;
             string password;
             Console.WriteLine("Masukkan password anda untuk membuka HP");
@@ -180,7 +179,7 @@ namespace For_Loop
                 }
             }
             else { Console.WriteLine("Tidak ada yang seperti input di dalan daftar pilihan senjata"); }
-            Console.WriteLine("\n[COMPETED SUCCESFULY]");
+            Console.WriteLine("\n[COMPLETED SUCCESFULY]");
         }
     }
 }
